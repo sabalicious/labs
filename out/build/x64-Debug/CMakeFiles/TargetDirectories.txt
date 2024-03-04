@@ -1,0 +1,11 @@
+C:/Users/Vlad/source/repos/labs2/out/build/x64-Debug/CMakeFiles/untitled.dir
+C:/Users/Vlad/source/repos/labs2/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Vlad/source/repos/labs2/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Vlad/source/repos/labs2/out/build/x64-Debug/libs/CMakeFiles/edit_cache.dir
+C:/Users/Vlad/source/repos/labs2/out/build/x64-Debug/libs/CMakeFiles/rebuild_cache.dir
+C:/Users/Vlad/source/repos/labs2/out/build/x64-Debug/libs/data_structures/CMakeFiles/data_structures.dir
+C:/Users/Vlad/source/repos/labs2/out/build/x64-Debug/libs/data_structures/CMakeFiles/edit_cache.dir
+C:/Users/Vlad/source/repos/labs2/out/build/x64-Debug/libs/data_structures/CMakeFiles/rebuild_cache.dir
+C:/Users/Vlad/source/repos/labs2/out/build/x64-Debug/libs/algorithms/CMakeFiles/algorithms.dir
+C:/Users/Vlad/source/repos/labs2/out/build/x64-Debug/libs/algorithms/CMakeFiles/edit_cache.dir
+C:/Users/Vlad/source/repos/labs2/out/build/x64-Debug/libs/algorithms/CMakeFiles/rebuild_cache.dir
