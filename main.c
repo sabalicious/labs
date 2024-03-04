@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	printf("ffdfgtf");
+	printf("123");
 
 	return 0;
 }
