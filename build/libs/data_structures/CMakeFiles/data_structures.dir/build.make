@@ -111,11 +111,26 @@ libs/data_structures/CMakeFiles/data_structures.dir/ordered_set/ordered_set.c.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/data_structures.dir/ordered_set/ordered_set.c.s"
 	cd C:/Users/Vlad/CLionProjects/untitled/build/libs/data_structures && c:/users/vlad/gcc/bin/x86_64-w64-mingw32-gcc-12.1.0.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/Vlad/CLionProjects/untitled/libs/data_structures/ordered_set/ordered_set.c -o CMakeFiles/data_structures.dir/ordered_set/ordered_set.c.s
 
+libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj: libs/data_structures/CMakeFiles/data_structures.dir/flags.make
+libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj: C:/Users/Vlad/CLionProjects/untitled/libs/data_structures/vector/vector.c
+libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj: libs/data_structures/CMakeFiles/data_structures.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Vlad/CLionProjects/untitled/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj"
+	cd C:/Users/Vlad/CLionProjects/untitled/build/libs/data_structures && c:/users/vlad/gcc/bin/x86_64-w64-mingw32-gcc-12.1.0.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj -MF CMakeFiles/data_structures.dir/vector/vector.c.obj.d -o CMakeFiles/data_structures.dir/vector/vector.c.obj -c C:/Users/Vlad/CLionProjects/untitled/libs/data_structures/vector/vector.c
+
+libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/data_structures.dir/vector/vector.c.i"
+	cd C:/Users/Vlad/CLionProjects/untitled/build/libs/data_structures && c:/users/vlad/gcc/bin/x86_64-w64-mingw32-gcc-12.1.0.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/Vlad/CLionProjects/untitled/libs/data_structures/vector/vector.c > CMakeFiles/data_structures.dir/vector/vector.c.i
+
+libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/data_structures.dir/vector/vector.c.s"
+	cd C:/Users/Vlad/CLionProjects/untitled/build/libs/data_structures && c:/users/vlad/gcc/bin/x86_64-w64-mingw32-gcc-12.1.0.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/Vlad/CLionProjects/untitled/libs/data_structures/vector/vector.c -o CMakeFiles/data_structures.dir/vector/vector.c.s
+
 # Object files for target data_structures
 data_structures_OBJECTS = \
 "CMakeFiles/data_structures.dir/bitset/bitset.c.obj" \
 "CMakeFiles/data_structures.dir/unordered_set/unordered_set.c.obj" \
-"CMakeFiles/data_structures.dir/ordered_set/ordered_set.c.obj"
+"CMakeFiles/data_structures.dir/ordered_set/ordered_set.c.obj" \
+"CMakeFiles/data_structures.dir/vector/vector.c.obj"
 
 # External object files for target data_structures
 data_structures_EXTERNAL_OBJECTS =
@@ -123,9 +138,10 @@ data_structures_EXTERNAL_OBJECTS =
 libs/data_structures/libdata_structures.a: libs/data_structures/CMakeFiles/data_structures.dir/bitset/bitset.c.obj
 libs/data_structures/libdata_structures.a: libs/data_structures/CMakeFiles/data_structures.dir/unordered_set/unordered_set.c.obj
 libs/data_structures/libdata_structures.a: libs/data_structures/CMakeFiles/data_structures.dir/ordered_set/ordered_set.c.obj
+libs/data_structures/libdata_structures.a: libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj
 libs/data_structures/libdata_structures.a: libs/data_structures/CMakeFiles/data_structures.dir/build.make
 libs/data_structures/libdata_structures.a: libs/data_structures/CMakeFiles/data_structures.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/Vlad/CLionProjects/untitled/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libdata_structures.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/Vlad/CLionProjects/untitled/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libdata_structures.a"
 	cd C:/Users/Vlad/CLionProjects/untitled/build/libs/data_structures && $(CMAKE_COMMAND) -P CMakeFiles/data_structures.dir/cmake_clean_target.cmake
 	cd C:/Users/Vlad/CLionProjects/untitled/build/libs/data_structures && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/data_structures.dir/link.txt --verbose=$(VERBOSE)
 

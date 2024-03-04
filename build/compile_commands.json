@@ -24,6 +24,12 @@
   "output": "libs/data_structures/CMakeFiles/data_structures.dir/ordered_set/ordered_set.c.obj"
 },
 {
+  "directory": "C:/Users/Vlad/CLionProjects/untitled/build/libs/data_structures",
+  "command": "c:/users/vlad/gcc/bin/x86_64-w64-mingw32-gcc-12.1.0.exe   -g -std=gnu99 -o CMakeFiles/data_structures.dir/vector/vector.c.obj -c C:/Users/Vlad/CLionProjects/untitled/libs/data_structures/vector/vector.c",
+  "file": "C:/Users/Vlad/CLionProjects/untitled/libs/data_structures/vector/vector.c",
+  "output": "libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj"
+},
+{
   "directory": "C:/Users/Vlad/CLionProjects/untitled/build/libs/algorithms",
   "command": "c:/users/vlad/gcc/bin/x86_64-w64-mingw32-gcc-12.1.0.exe   -g -std=gnu99 -o CMakeFiles/algorithms.dir/algorithms.c.obj -c C:/Users/Vlad/CLionProjects/untitled/libs/algorithms/algorithms.c",
   "file": "C:/Users/Vlad/CLionProjects/untitled/libs/algorithms/algorithms.c",
