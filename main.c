@@ -5,7 +5,7 @@ int main() {
     size_t n = 10;
     vector myVector = createVector(n);
 
-    // Пример использования вектора
+    // Пример использования вектораа
     for (size_t i = 0; i < n; i++) {
         myVector.data[i] = i * 2;
         printf("%d ", myVector.data[i]);
