@@ -1,0 +1,11 @@
+C:/Users/Vlad/CLionProjects/untitled/cmake-build-debug-mingw/CMakeFiles/untitled.dir
+C:/Users/Vlad/CLionProjects/untitled/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+C:/Users/Vlad/CLionProjects/untitled/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
+C:/Users/Vlad/CLionProjects/untitled/cmake-build-debug-mingw/libs/CMakeFiles/edit_cache.dir
+C:/Users/Vlad/CLionProjects/untitled/cmake-build-debug-mingw/libs/CMakeFiles/rebuild_cache.dir
+C:/Users/Vlad/CLionProjects/untitled/cmake-build-debug-mingw/libs/data_structures/CMakeFiles/data_structures.dir
+C:/Users/Vlad/CLionProjects/untitled/cmake-build-debug-mingw/libs/data_structures/CMakeFiles/edit_cache.dir
+C:/Users/Vlad/CLionProjects/untitled/cmake-build-debug-mingw/libs/data_structures/CMakeFiles/rebuild_cache.dir
+C:/Users/Vlad/CLionProjects/untitled/cmake-build-debug-mingw/libs/algorithms/CMakeFiles/algorithms.dir
+C:/Users/Vlad/CLionProjects/untitled/cmake-build-debug-mingw/libs/algorithms/CMakeFiles/edit_cache.dir
+C:/Users/Vlad/CLionProjects/untitled/cmake-build-debug-mingw/libs/algorithms/CMakeFiles/rebuild_cache.dir

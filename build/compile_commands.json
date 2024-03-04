@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/Users/Vlad/CLionProjects/untitled/build",
+  "command": "c:/users/vlad/gcc/bin/x86_64-w64-mingw32-gcc-12.1.0.exe   -g -std=gnu99 -o CMakeFiles/untitled.dir/main.c.obj -c C:/Users/Vlad/CLionProjects/untitled/main.c",
+  "file": "C:/Users/Vlad/CLionProjects/untitled/main.c",
+  "output": "CMakeFiles/untitled.dir/main.c.obj"
+},
+{
+  "directory": "C:/Users/Vlad/CLionProjects/untitled/build/libs/data_structures",
+  "command": "c:/users/vlad/gcc/bin/x86_64-w64-mingw32-gcc-12.1.0.exe   -g -std=gnu99 -o CMakeFiles/data_structures.dir/bitset/bitset.c.obj -c C:/Users/Vlad/CLionProjects/untitled/libs/data_structures/bitset/bitset.c",
+  "file": "C:/Users/Vlad/CLionProjects/untitled/libs/data_structures/bitset/bitset.c",
+  "output": "libs/data_structures/CMakeFiles/data_structures.dir/bitset/bitset.c.obj"
+},
+{
+  "directory": "C:/Users/Vlad/CLionProjects/untitled/build/libs/data_structures",
+  "command": "c:/users/vlad/gcc/bin/x86_64-w64-mingw32-gcc-12.1.0.exe   -g -std=gnu99 -o CMakeFiles/data_structures.dir/unordered_set/unordered_set.c.obj -c C:/Users/Vlad/CLionProjects/untitled/libs/data_structures/unordered_set/unordered_set.c",
+  "file": "C:/Users/Vlad/CLionProjects/untitled/libs/data_structures/unordered_set/unordered_set.c",
+  "output": "libs/data_structures/CMakeFiles/data_structures.dir/unordered_set/unordered_set.c.obj"
+},
+{
+  "directory": "C:/Users/Vlad/CLionProjects/untitled/build/libs/data_structures",
+  "command": "c:/users/vlad/gcc/bin/x86_64-w64-mingw32-gcc-12.1.0.exe   -g -std=gnu99 -o CMakeFiles/data_structures.dir/ordered_set/ordered_set.c.obj -c C:/Users/Vlad/CLionProjects/untitled/libs/data_structures/ordered_set/ordered_set.c",
+  "file": "C:/Users/Vlad/CLionProjects/untitled/libs/data_structures/ordered_set/ordered_set.c",
+  "output": "libs/data_structures/CMakeFiles/data_structures.dir/ordered_set/ordered_set.c.obj"
+},
+{
+  "directory": "C:/Users/Vlad/CLionProjects/untitled/build/libs/algorithms",
+  "command": "c:/users/vlad/gcc/bin/x86_64-w64-mingw32-gcc-12.1.0.exe   -g -std=gnu99 -o CMakeFiles/algorithms.dir/algorithms.c.obj -c C:/Users/Vlad/CLionProjects/untitled/libs/algorithms/algorithms.c",
+  "file": "C:/Users/Vlad/CLionProjects/untitled/libs/algorithms/algorithms.c",
+  "output": "libs/algorithms/CMakeFiles/algorithms.dir/algorithms.c.obj"
+},
+{
+  "directory": "C:/Users/Vlad/CLionProjects/untitled/build/libs/algorithms",
+  "command": "c:/users/vlad/gcc/bin/x86_64-w64-mingw32-gcc-12.1.0.exe   -g -std=gnu99 -o CMakeFiles/algorithms.dir/array/array.c.obj -c C:/Users/Vlad/CLionProjects/untitled/libs/algorithms/array/array.c",
+  "file": "C:/Users/Vlad/CLionProjects/untitled/libs/algorithms/array/array.c",
+  "output": "libs/algorithms/CMakeFiles/algorithms.dir/array/array.c.obj"
+}
+]

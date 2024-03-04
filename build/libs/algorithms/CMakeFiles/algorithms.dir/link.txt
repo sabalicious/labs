@@ -1,0 +1,2 @@
+C:/Users/Vlad/gcc/bin/ar.exe qc libalgorithms.a CMakeFiles/algorithms.dir/algorithms.c.obj CMakeFiles/algorithms.dir/array/array.c.obj
+C:/Users/Vlad/gcc/bin/ranlib.exe libalgorithms.a

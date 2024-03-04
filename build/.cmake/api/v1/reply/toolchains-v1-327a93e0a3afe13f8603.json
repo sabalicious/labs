@@ -1,0 +1,72 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Users/Vlad/gcc/lib/gcc/x86_64-w64-mingw32/12.1.0/include",
+						"C:/Users/Vlad/gcc/lib/gcc/x86_64-w64-mingw32/12.1.0/include-fixed",
+						"C:/Users/Vlad/gcc/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/Users/Vlad/gcc/lib/gcc/x86_64-w64-mingw32/12.1.0",
+						"C:/Users/Vlad/gcc/lib/gcc",
+						"C:/Users/Vlad/gcc/x86_64-w64-mingw32/lib",
+						"C:/Users/Vlad/gcc/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "c:/users/vlad/gcc/bin/x86_64-w64-mingw32-gcc-12.1.0.exe",
+				"version" : "12.1.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "C:/Users/Vlad/gcc/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
