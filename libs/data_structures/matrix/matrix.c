@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <assert.h>
-#include "matrix.h"
+#include "C:\Users\Vlad\labs\libs\data_structures\matrix\matrix.h"
 
 matrix getMemMatrix(int nRows, int nCols) {
     int** values = (int**)malloc(sizeof(int*) * nRows);

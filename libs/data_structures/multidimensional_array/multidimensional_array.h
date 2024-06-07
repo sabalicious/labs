@@ -2,7 +2,7 @@
 #define INC_MULTIDIMENSIONAL_ARRAY_H
 
 #include <stdio.h>
-#include "libs/data_structures/matrix/matrix.c"
+#include "../matrix/matrix.c"
 
 // Дана квадратная матрица, все элементы которой различны.
 // Функция менять местами строки, в которых находятся максимальный и минимальный элементы
