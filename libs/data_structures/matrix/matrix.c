@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <assert.h>
-#include "libs/data_structures/matrix/matrix.h"
+#include "matrix.h"
 
 matrix getMemMatrix(int nRows, int nCols) {
     int** values = (int**)malloc(sizeof(int*) * nRows);
@@ -173,10 +173,6 @@ void selectionSortColsMatrixByColCriteria(matrix m, int (*criteria)(int*, int)) 
 bool isSquareMatrix(matrix* m) {
     return m->nRows == m->nCols;
 }
-
-// bool areTwoMatricesEqual(matrix *m1, matrix *m2) {
-//     return memcmp(m1->values, m2->values, m1->nRows * m1->nCols * sizeof(int)) == 0;
-// }
 
 bool areTwoMatricesEqual(matrix* m1, matrix* m2) {
     if (m1->nRows != m2->nRows || m1->nCols != m2->nCols) {
