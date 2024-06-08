@@ -127,3 +127,149 @@ char* copyIfReverse(char* rbeginSource, const char* rendSource, char* beginDesti
 
     return beginDestination;
 }
+
+int is_delim(char c, char* delim) {
+    while (*delim != '\0') {
+        if (c == *delim) {
+            return 1;
+        }
+
+        delim++;
+    }
+
+    return 0;
+}
+
+char* strtok_(char* inputString, char* delimiters) {
+    static char* nextToken;
+    if (!inputString) {
+        inputString = nextToken;
+    }
+
+    if (!inputString) {
+        return NULL;
+    }
+
+    while (1) {
+        if (is_delim(*inputString, delimiters)) {
+            inputString++;
+            continue;
+        }
+
+        if (*inputString == '\0') {
+            return NULL;
+        }
+
+        break;
+    }
+
+    char* tokenStart = inputString;
+    while (1) {
+        if (*inputString == '\0') {
+            nextToken = inputString;
+            return tokenStart;
+        }
+
+        if (is_delim(*inputString, delimiters)) {
+            *inputString = '\0';
+            nextToken = inputString + 1;
+            return tokenStart;
+        }
+
+        inputString++;
+    }
+}
+
+int strncmp_(const char* s1, const char* s2, size_t n) {
+    while (n && *s1 && (*s1 == *s2)) {
+        ++s1;
+        ++s2;
+        --n;
+    }
+
+    if (n == 0) {
+        return 0;
+    }
+    else {
+        return (*(unsigned char*)s1 - *(unsigned char*)s2);
+    }
+}
+
+char* strstr_(const char* mainStr, const char* subStr) {
+    char* s1, * s2;
+
+    while (*mainStr != NULL) {
+        if (*mainStr == *subStr) {
+            s1 = mainStr;
+            s2 = subStr;
+
+            while (*s1 && *s2) {
+                if (*s1 != *s2)
+                    break;
+
+                s1++;
+                s2++;
+            }
+
+            if (*s2 == NULL) {
+                return mainStr;
+            }
+        }
+
+        mainStr++;
+    }
+
+    return NULL;
+}
+
+int getWord(char* beginSearch, WordDescriptor* word) {
+    word->begin = findNonSpace(beginSearch);
+    if (*word->begin == '\0')
+        return 0;
+
+    word->end = findSpace(word->begin);
+
+    return 1;
+}
+
+char* getEndOfString(char* s) {
+    char* end = s;
+
+    while (*end) {
+        end++;
+    }
+
+    end--;
+
+    return end;
+}
+
+bool getWordReverse(char* rbegin, char* rend, WordDescriptor* word) {
+    word->end = rbegin;
+    word->begin = findSpaceReverse(rbegin, rend);
+
+    if (word->begin == rend)
+        return 0;
+
+    word->begin = findNonSpaceReverse(word->begin, rend);
+
+    return 1;
+}
+
+void digitToStart(WordDescriptor word) {
+    char* endStringBuffer = copy(word.begin, word.end, _stringBuffer);
+    char* recPosition = copyIfReverse(endStringBuffer - 1, _stringBuffer - 1, word.begin, isdigit);
+    copyIf(_stringBuffer, endStringBuffer, recPosition, isalpha);
+}
+
+void assertString(const char* expected, char* got, char const* fileName, char const* funcName, int line) {
+    if (strcmp(expected, got)) {
+        fprintf(stderr, "File %s\n", fileName);
+        fprintf(stderr, "%s - failed on line %d\n", funcName, line);
+        fprintf(stderr, "Expected: \"%s\"\n", expected);
+        fprintf(stderr, "Got: \"%s\"\n\n", got);
+    }
+    else {
+        fprintf(stderr, "%s - OK\n", funcName);
+    }
+}

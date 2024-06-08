@@ -84,4 +84,39 @@ char* copyIf(char* beginSource, const char* endSource, char* beginDestination, i
 // Функция возвращает значение beginDestination по окончанию работы.
 char* copyIfReverse(char* rbeginSource, const char* rendSource, char* beginDestination, int (*f)(int));
 
+// Если символ c совпадает с каким-либо символом из delim, 
+// функция возвращает 1, указывая на то, что символ c является разделителем. 
+// В противном случае возвращается 0.
+int is_delim(char c, char* delim);
+
+// Функция используется для извлечения следующей подстроки
+// из строки inputString, используя набор разделителей delimiters.
+char* strtok_(char* inputString, char* delimiters);
+
+// Функция реализует сравнение двух строк до определенной длины n.
+int strncmp_(const char* s1, const char* s2, size_t n);
+
+// Функция реализует поиск подстроки subStr в строке mainStr
+char* strstr_(const char* mainStr, const char* subStr);
+
+// Функция вернёт значение 0, если слово не было считано, в противном
+// случае будет возвращено значение 1 и в переменную word типа WordDescriptor
+// будут записаны позиции начала слова, и первого символа после конца слова
+int getWord(char* beginSearch, WordDescriptor* word);
+
+// Функция начинает считывание с переданного указателя s и 
+// перемещается по строке до тех пор, пока не достигнет символа завершающего нуля. 
+// Возвращает указатель на предыдущий символ, который является последним символом строки перед '\0'.
+char* getEndOfString(char* s);
+
+// Функция для считывания слова с конца строки
+bool getWordReverse(char* rbegin, char* rend, WordDescriptor* word);
+
+// Выполняет операцию сортировки символов в строке, 
+// перемещая цифры в начало строки
+void digitToStart(WordDescriptor word);
+
+// Функция для тестирования
+void assertString(const char* expected, char* got, char const* fileName, char const* funcName, int line);
+
 #endif
