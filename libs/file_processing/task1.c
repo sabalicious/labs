@@ -118,8 +118,8 @@ void checkTransformationOfMatrices(const char* input, const char* output, int nu
 }
 
 int main() {
-    const char* inputFile = "C:/Users/fatee/ClionProjects/course/libs/file_processing/input.txt";
-    const char* outputFile = "C:/Users/fatee/ClionProjects/course/libs/file_processing/output.txt";
+    const char* inputFile = "C:/Users/Vlad/labs/libs/file_processing/input.txt";
+    const char* outputFile = "C:/Users/Vlad/labs/libs/file_processing/output.txt";
 
     int numberOfMatricesToGenerate = 3;
 
