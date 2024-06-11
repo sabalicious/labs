@@ -1,4 +1,4 @@
 add_library(exam
-        math_/math_.h #Добавили math.h
-        math_/math_.c #Добавили math.c
+        math_/math_.h #add math.h
+        math_/math_.c #add math.c
          )

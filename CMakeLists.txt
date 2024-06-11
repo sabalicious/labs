@@ -9,4 +9,4 @@ add_subdirectory(libs)
 
 target_link_libraries(untitled data_structures)
 target_link_libraries(untitled algorithms)
-target_link_libraries(untitled exam) #Подключили библиотеку exam
+target_link_libraries(untitled exam) #Addm library exam
