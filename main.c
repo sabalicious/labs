@@ -1,21 +1,19 @@
-#include "libs/data_structures/vector/vector.h"
 #include <stdio.h>
+#include "math_.h"
 
 int main() {
-    size_t n = 10;
-    vector myVector = createVector(n);
+    int a = 10;
+    int b = 5;
 
-    // Пример использования вектораа
-    for (size_t i = 0; i < n; i++) {
-        myVector.data[i] = i * 2;
-        printf("%d ", myVector.data[i]);
-    }
-
-    // Освобождение памяти после использования вектора
-    free(myVector.data);
+    printf("Add: %d\n", add(a, b));
+    printf("Subtract: %d\n", subtract(a, b));
+    printf("Multiply: %d\n", multiply(a, b));
+    printf("Divide: %d\n", divide(a, b));
+    printf("Modulo: %d\n", modulo(a, b));
 
     return 0;
 }
+
 
 
 
